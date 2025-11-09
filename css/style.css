@@ -1,0 +1,63 @@
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 80px;
+    padding-top: 70px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #eeeff1;
+    color: #333;
+    font-family: 'Times New Roman', Times, serif;
+}
+.title {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 50px;
+}
+h1 a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+.subtitle {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    color: black;
+}
+nav {
+    background-color: #bfd6c4;
+    display: flex;
+    justify-content:space-between;
+    padding-left: 10px;
+    height: 60px;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    backdrop-filter: blur(5px);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+nav .left a {
+    color: black;
+    font-size: 24px;
+    font-weight: 600;
+    text-decoration: none;
+}
+nav .right a {
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    margin-right: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+}
+nav .right a:hover {
+    color: white;
+    transition: color 0.3s ease-in-out;
+}
